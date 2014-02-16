@@ -8,8 +8,8 @@ module MWS
 
       def_request [:list_inventory_supply, :list_inventory_supply_by_next_token],
         :verb => :get,
-        :uri => '/FulfillmentInventory/2010-10-01',
-        :version => '2010-10-01',
+        :uri => '/FulfillmentInventory/2011-01-01',
+        :version => '2011-01-01',
         :lists => {
           :seller_skus => "SellerSkus.member"
         },
